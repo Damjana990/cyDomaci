@@ -1,0 +1,38 @@
+{
+    "login": {
+        "email": "#email",
+        "password": "#password",
+        "submit": "button[type='submit']",
+        "login_but": "a[href='/login']"
+       
+    },
+
+    "logout": {
+        "button": "a[role= 'button ']"
+    },
+    
+    "register": {
+        "firstName": "#first-name",
+        "lastName": "#last-name",
+        "email": "#email",
+        "password": "#password",
+        "password_conf": "#password-confirmation",
+        "checkbox_conf": "input[type='checkbox']",
+        "button_conf": "form > .btn.btn-custom"
+    },
+
+    "create_gallery": {
+        "title": "#title",
+        "description" : "#description",
+        "image" : "input[type='url']",
+        "submit_butt": "form > button:nth-of-type(1)",
+        "add_button": "form div:nth-of-type(3) > [type]",
+        "image_second" : "div:nth-of-type(2) > .input-group.mb-3 > .form-control"
+    },
+
+    "all_galleries_filter": {
+        "all_filter":".input-group.mb-3 > .form-control",
+        "filter_button": ".input-group-append > .btn.btn-outline-secondary.input-button",
+        "load_more":".btn.btn-custom"
+    }
+}
